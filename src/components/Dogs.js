@@ -53,10 +53,6 @@ class Dogs extends React.Component {
   }
 
   render() {
-    // { console.log(this.state.dogs) }
-    // { console.log(this.state.dogs[0]) }
-    // { this.setState.dogs[0].img = 'hello' }
-    // { console.log(this.state.dogs[0]) }
     if (!this.state.dogs) {
       return <h2>loading...</h2>
     }
