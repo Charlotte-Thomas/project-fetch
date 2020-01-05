@@ -56,33 +56,6 @@ class SingleDog extends React.Component {
       </div>
      
     </div>
-    // console.log('yo ', this.state.wine)
-    // if (this.state.err === 404) {
-    //   return <h1>404</h1>
-    // }
-    // return <div className="section">
-    //   <div className="container">
-    //     <div className="columns is-mobile is-multiline">
-    //       <div className="column is-half-tablet">
-    //         <p className="title">
-    //           {this.state.wine.name}
-    //         </p>
-    //         <p className="subtitle">
-    //           {this.state.wine.origin}
-    //         </p>
-    //         <p className="">
-    //           {this.state.wine.tastingNotes}
-    //         </p>
-    //         <Link className="button is-info" to={`/wines/edit/${this.state.wine._id}`}>
-    //           Edit wine
-    //         </Link>
-    //       </div>
-    //       <div className="column is-half-tablet">
-    //         <img src={this.state.wine.image} />
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   }
 }
 
