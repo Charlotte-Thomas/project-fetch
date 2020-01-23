@@ -12,7 +12,7 @@ import SingleDog from './components/SingleDog'
 import FavouriteDogs from './components/Favourites'
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/project-fetch">
     <Navbar />
     <Switch>
       <Route exact path="/" component={Home} />
