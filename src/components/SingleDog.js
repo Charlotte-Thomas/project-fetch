@@ -49,7 +49,7 @@ class SingleDog extends React.Component {
             <p>Life span: {this.state.dog[0].breeds[0].life_span}</p>
             <p>Temperament: {this.state.dog[0].breeds[0].temperament}</p>
             <div className="button" onClick={() => this.addFavs()}>
-              fav doggo
+              Like
             </div>
           </div>
         </div>
