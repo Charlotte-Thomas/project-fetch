@@ -33,7 +33,7 @@ My partner and I chose to use an API which gave us information about different d
 
 Due to the limited time-frame given to complete this project, we decided to create a very simple site which had a landing-page, list of breeds, single dog page and favourites page.
 
-###Dog Breeds Page
+### Dog Breeds Page
 
 Firstly we made a request to get all the information about each dog breed.
 
@@ -70,7 +70,7 @@ As we were unsure of API call limits, we decided to reduce the number of request
 ![](https://i.imgur.com/k8Wryng.png)
 
 
-###Single Dog Page
+### Single Dog Page
 
 A user can click on any dog from the breeds page to find out more information about that particular breed.
 
@@ -84,7 +84,7 @@ We also implemented a "Like" button which allows the user to save that dog to th
   	
 ![](https://i.imgur.com/DEOGT0E.png)
 
-###Favourites Page
+### Favourites Page
 
 In order to display a users favourite dogs, we simply got the infomation from local storage and places the dog images and names into separate arrays before rendering them on to the page.
 
@@ -110,18 +110,18 @@ In order to display a users favourite dogs, we simply got the infomation from lo
 	  
 ![](https://i.imgur.com/Jmn9LHv.png)
 
-##Limitations
+## Limitations
 
 One GET request had to be made for each individual dog breed as images were not included with all the other information about the breeds. This made making the breed page quite difficult and the reason for why we limited our api calls for images to 10.
 
 Having too many requests also slowed down the rendering of the site quite significantly.
 
-##Future Features
+## Future Features
 
 * A search function to look for dogs by name, breed, etc.
 * An improved design
 * An 'adopt a dog' feature, possibly using a different API to determine dogs up for adoption in your area
 
-##Lessons Learned
+## Lessons Learned
 
 Make sure to choose an API which is easy to utilise for the purposes of the website.
