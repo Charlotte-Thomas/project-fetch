@@ -37,17 +37,4 @@ const FavouriteDogs = () => (
 
 
 
-
-
-
-// function plonkImages() {
-//   test.forEach((dog) => {
-//     return <img src={img} />
-//   })
-// }
-
-//   <div>{plonkImages()}</div>
-
-
-
 export default FavouriteDogs

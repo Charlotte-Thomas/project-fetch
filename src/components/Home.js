@@ -5,7 +5,7 @@ const Home = () => (
     <div className="hero-body">
       <div className="container">
         <p className="title has-text-centered">🐶 FETCH 🐶</p>
-        <p className="subtitle has-text-centered">Give a dog a 🦴 and a 🏚 // Open to better descriptions</p>
+        <p className="subtitle has-text-centered">🦴Learn about all your favourite dogs! 🦴</p>
       </div>
     </div>
   </section>
