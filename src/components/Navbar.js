@@ -15,9 +15,9 @@ const Navbar = () => (
           <div className="navbar-item">
             <Link className="navbar-item" to="/dogs/favourites">Favourites</Link>
           </div>
-          <div className="navbar-item">
+          {/* <div className="navbar-item">
             <Link className="navbar-item" to="/adopt">Adopt A Dog</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

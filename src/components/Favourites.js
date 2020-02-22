@@ -11,7 +11,7 @@ function makeImages() {
       return
     }
     const img = dog.split(',')[0]
-    listImg.push(<img src={img}></img>)
+    listImg.push(<img className="favImg" src={img}></img>)
   })
   test.forEach((dog) => {
     if (dog === 'INFO') {

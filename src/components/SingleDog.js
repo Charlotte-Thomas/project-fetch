@@ -39,7 +39,7 @@ class SingleDog extends React.Component {
           <div className="column is-half-tablet">
             <img src={this.state.dog[0].url} />
           </div>
-          <div className="column is-half-tablet">
+          <div className="column is-half-tablet has-text-centered">
             <p className="title">{this.state.dog[0].breeds[0].name}</p>
             <p className="subtitle">Origin: {this.state.dog[0].breeds[0].origin}</p>
             <p>Weight: {this.state.dog[0].breeds[0].weight.metric}</p>
@@ -48,7 +48,7 @@ class SingleDog extends React.Component {
             <p>Breed group: {this.state.dog[0].breeds[0].breed_group}</p>
             <p>Life span: {this.state.dog[0].breeds[0].life_span}</p>
             <p>Temperament: {this.state.dog[0].breeds[0].temperament}</p>
-            <div className="button" onClick={() => this.addFavs()}>
+            <div className="button likeButton" onClick={() => this.addFavs()}>
               Like
             </div>
           </div>

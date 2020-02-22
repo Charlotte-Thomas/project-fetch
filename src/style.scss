@@ -1,3 +1,4 @@
+
 figure {
   display: flex;
   flex-direction: column; 
@@ -5,7 +6,6 @@ figure {
 }
 
   #content {
-    margin: 10px 0;
     height: 500px;
     width: 500px;
     object-fit: contain;
@@ -15,4 +15,30 @@ figure {
       margin: 5px 0;
       text-align: center;
 }
-  
+
+.dogpic {
+  background: url('https://i.imgur.com/uSdwEjv.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position-y: 250px;
+  padding-bottom: 200px;
+}
+
+.fetchName {
+  font-size: 90px;
+  padding-bottom: 10px;
+}
+
+.likeButton {
+  margin-top: 40px;
+  width: 20%;
+  padding: 20px;
+  background: rgb(199, 201, 201);
+  font-weight: bold;
+  border: 2px solid rgb(158, 156, 156);
+}
+
+.favImg {
+  width: 100%;
+  height: 75%;
+}
