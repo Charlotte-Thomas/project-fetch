@@ -47,7 +47,7 @@ Firstly we made a request to get all the information about each dog breed.
   	   	}
   	
 
-The API we chose was designed so that you could only GET one images of dog breed at a time, for this reason we had to design a function which looped through a sequence of GET requests in order to get all the dogs breed images.
+The API we chose was designed so that you could only GET one image for one dog breed at a time, for this reason we had to design a function which looped through a sequence of GET requests in order to get all the dogs breed images.
 
 	fetchImages(dogs) {
 	    const allDogs = [...dogs]
@@ -86,7 +86,7 @@ We also implemented a "Like" button which allows the user to save that dog to th
 
 ### Favourites Page
 
-In order to display a users favourite dogs, we simply got the infomation from local storage and places the dog images and names into separate arrays before rendering them on to the page.
+In order to display a users favourite dogs, we simply got the infomation from local storage and placed the dog images and names into separate arrays before rendering them onto the page.
 
 	function makeImages() {
 	  const allStorage = { ...localStorage }
