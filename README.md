@@ -2,6 +2,8 @@
 
 ### ![](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) General Assembly, Software Engineering Immersive
 
+![dogsImg](https://i.imgur.com/hERAodM.png)
+
 ## Overview
 Link to the site on [GitHub Pages](https://charlotte-thomas.github.io/project-fetch/).
 
@@ -10,6 +12,7 @@ The second project tasked to us by General Assembly required us to develop a sim
 This was a **48 hour - paired-programming hackathon** with [Georg Preuss](https://github.com/georgpreuss).
 
 My partner and I chose to use an API which gave us information about different dog breeds. We took turns to either write the code or direct the person programming.
+
 
 ## Brief
 
@@ -82,7 +85,7 @@ We also implemented a "Like" button which allows the user to save that dog to th
 	    console.log({ ...localStorage })
   	}
   	
-![](https://i.imgur.com/DEOGT0E.png)
+![](https://i.imgur.com/HS9TxyH.png)
 
 ### Favourites Page
 
