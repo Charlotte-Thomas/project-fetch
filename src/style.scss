@@ -20,11 +20,13 @@ figure {
   background: url('https://i.imgur.com/uSdwEjv.png');
   background-repeat: no-repeat;
   background-size: 100vw;
-  background-position-y: 250px;
-  padding-bottom: 200px;
+  background-position-y: 170px;
+  // padding-bottom: 200px;
+  height: 90vh;
 }
 
 .fetchName {
+  margin-top: 15%;
   font-size: 90px;
   padding-bottom: 10px;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Home = () => (
-  <section className="hero is-fullheight dogpic">
+  <section className="hero dogpic">
     <div className="hero-body">
       <div className="container">
         <h1 className="title has-text-centered fetchName">FETCH</h1>
